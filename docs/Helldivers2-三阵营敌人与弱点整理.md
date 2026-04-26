@@ -249,6 +249,7 @@ graph TD
 | 肉瘤体 | Fleshmob | 5000 | 上部头脸块会对主血转伤 150% | 无甲高肉度 | 当前页面变更记录确认主血已从 6000 下调到 5000。 |
 | 刺魟 | Stingray | 800 | 主生命已确认，部位待补 | 飞行器 | 扫射前后速变化时最容易命中。 |
 | 利维坦 | Leviathan | 15000 | 主炮塔、鳍片/尾部破坏后内部为关键弱点 | 坦克级飞行战舰 | 当前文档中主血最高的光能者常规单位之一。 |
+| 运输飞船 | Illuminate Overship | 18001 | 发光港口 1500；护盾 10000 | 坦克 VI | `2026-03-17` 后主船体与港口已升至坦克 VI，常规任务中应按专用目标处理。 |
 | 跃迁飞船 | Warp Ship | 3500 | 主船体/船壳 3500 | 坦克 I | 先破盾再打本体；本质上是投送与据点单位。 |
 | 守门人 | Gatekeeper | 2500 | 驾驶舱连接侧、顶部盾发生器为关键弱点 | 重型构装体 | wiki.gg 页面仍在完善中，但主血已给出。 |
 | 入侵者 | Obtruder | 400 | 主生命已确认，部位待补 | 轻型飞行目标 | 观察者分支的攻击型变种。 |
@@ -712,10 +713,10 @@ graph TD
 
 | 中文名（已校对） | 英文名 | 装甲 | 基础难度 | 状态 |
 | --- | --- | --- | --- | --- |
-| 食腐虫 | Scavenger | 轻甲 | 1 | 待补战术 |
-| 吐酸虫 | Bile Spitter | 轻甲 | 2 | 待补战术 |
+| 食腐虫 | Scavenger | 轻甲 | 1 | 已补轻型战术 |
+| 吐酸虫 | Bile Spitter | 轻甲 | 2 | 已补轻型战术 |
 | 武斗虫 | Warrior | 轻甲 | 1 | 已有通用弱点 |
-| 猛扑虫 | Pouncer | 轻甲 | 2 | 待补战术 |
+| 猛扑虫 | Pouncer | 轻甲 | 2 | 已补轻型战术 |
 | 护理喷涌虫 | Nursing Spewer | 轻甲 | 3 | 已确认 |
 | 虫族指挥官 | Brood Commander | 轻甲 | 3 | 已有通用弱点 |
 | 虫巢守卫 | Hive Guard | 轻甲 | 3 | 已确认 |
@@ -745,6 +746,23 @@ graph TD
 - `追猎虫（Hunter）` 属于轻甲中型近战威胁，通常不是“装甲问题”，而是“数量与贴脸速度问题”，因此应优先防包围。
 - `强袭虫（Charger）` 和 `吐酸泰坦（Bile Titan）` 属于终结族前线最值得保留重火力的目标。
 
+### 轻型单位补全
+
+| 中文名 | 英文名 | 核心特征 | 优先处理点 | 实战建议 |
+| --- | --- | --- | --- | --- |
+| 食腐虫 | Scavenger | 最基础的近战杂兵，血量极低 | 清数量、防包围 | 单只几乎没有威胁，真正危险在于混入虫潮后遮挡视线、拖慢换弹与翻越动作。 |
+| 吐酸虫 | Bile Spitter | 远程吐酸轻型虫，常在后排补伤 | 头部、吐酸前摇 | 不算硬，但会把小伤害不断叠成甲条压力。看到其停步抬头时应优先点掉。 |
+| 武斗虫 | Warrior | 终结族标准近战步兵 | 腿部、头部 | 中近距离压迫稳定，适合作为“练习打腿转伤”的基础目标。 |
+| 猛扑虫 | Pouncer | 小体型跳扑虫，贴脸速度快 | 起跳前、落地硬直 | 纸面很脆，但最容易造成视角被打断和近身失衡。霰弹、喷火和高射速武器都很好用。 |
+| 追猎虫 | Hunter | 高机动镰爪单位，擅长侧翼包抄 | 跳扑路径、头部 | 处理重点不是“能不能打穿”，而是别让它从两侧同时贴上来。优先清靠近侧翼和高地边缘的个体。 |
+| 追踪虫 | Stalker | 隐形突袭精英，会快速再生 | 面部、巢穴方向 | 一旦发现就要立刻追压，不给其脱战回血的机会；同时尽快反查巢穴位置，否则会不断被偷袭。 |
+
+### 终结族阵营战术总结
+
+- 轻型虫真正的杀伤力来自 `数量 + 贴脸 + 打断动作`，而不是单只数值。
+- `吐酸虫`、`追猎虫`、`追踪虫` 往往比正面冲来的普通近战虫更该先杀。
+- 面对终结族时，`先清会打断节奏的轻型单位，再留反重处理强袭虫和吐酸泰坦` 通常最稳。
+
 ### Automatons 机器人
 
 ### 敌人清单
@@ -753,19 +771,19 @@ graph TD
 
 | 中文名（已校对） | 英文名 | 装甲 | 基础难度 | 状态 |
 | --- | --- | --- | --- | --- |
-| 装甲兵 | Trooper | 轻甲 | ? | 待补战术 |
-| 劫掠者 | Marauder | 轻甲 | ? | 待补战术 |
-| 奇袭者 | Raider | 轻甲 | ? | 待补战术 |
-| 机枪奇袭者 | MG Raider | 轻甲 | ? | 待补战术 |
-| 政委 | Commissar | 轻甲 | ? | 待补战术 |
-| 徘徊者 | Brawler | 轻甲 | ? | 待补战术 |
-| 火箭奇袭者 | Rocket Raider | 轻甲 | ? | 待补战术 |
-| 特攻奇袭者 | Assault Raider | 轻甲 | ? | 待补战术 |
+| 装甲兵 | Trooper | 轻甲 | ? | 已补轻型战术 |
+| 劫掠者 | Marauder | 轻甲 | ? | 已补轻型战术 |
+| 奇袭者 | Raider | 轻甲 | ? | 已补轻型战术 |
+| 机枪奇袭者 | MG Raider | 轻甲 | ? | 已补轻型战术 |
+| 政委 | Commissar | 轻甲 | ? | 已补轻型战术 |
+| 徘徊者 | Brawler | 轻甲 | ? | 已补轻型战术 |
+| 火箭奇袭者 | Rocket Raider | 轻甲 | ? | 已补轻型战术 |
+| 特攻奇袭者 | Assault Raider | 轻甲 | ? | 已补轻型战术 |
 | 侦察纵步者 | Scout Strider | 重甲 | 3 | 已确认 |
-| 狂暴者 | Berserker | 中甲 | ? | 待补战术 |
-| 重型蹂躏者 | Heavy Devastator | 中甲 | ? | 待补战术 |
+| 狂暴者 | Berserker | 中甲 | ? | 已补中型战术 |
+| 重型蹂躏者 | Heavy Devastator | 中甲 | ? | 已补中型战术 |
 | 蹂躏者 | Devastator | 中甲 | 1 | 已有基础判断 |
-| 火箭蹂躏者 | Rocket Devastator | 中甲 | ? | 待补战术 |
+| 火箭蹂躏者 | Rocket Devastator | 中甲 | ? | 已补中型战术 |
 | 歼灭者坦克 | Annihilator Tank | 重甲 | 3 | 已确认 |
 | 强袭巨型者 | Hulk Bruiser | 重甲 | ? | 已并入巨型者通用处理 |
 | 撕裂者坦克 | Shredder Tank | 重甲 | ? | 已并入坦克通用处理 |
@@ -832,21 +850,21 @@ graph TD
 | 观察者 | Watcher | 侦察/呼叫援军 | 已确认 |
 | 监视者 | Overseer | 标准步兵指挥 | 已确认 |
 | 崇高监视者 | Elevated Overseer | 悬浮步兵 | 部分可沿用监视者逻辑 |
-| 新月监视者 | Crescent Overseer | 新增远程压制型 | 待补 |
+| 新月监视者 | Crescent Overseer | 新增远程压制型 | 已补战术 |
 | 肉瘤体 | Fleshmob | 重型肉团冲锋 | 已确认 |
 | 收割者 | Harvester | 三足重单位 | 已确认 |
-| 刺魟 | Stingray | 空中支援机 | 待补 |
-| 利维坦 | Leviathan | 大型新增单位 | 待补 |
-| 运输飞船 | Illuminate Overship | 重型飞行单位 | 待补 |
-| 跃迁飞船 | Warp Ship | 飞行器/投送单位 | 待补 |
+| 刺魟 | Stingray | 空中支援机 | 已补战术 |
+| 利维坦 | Leviathan | 大型新增单位 | 已补战术 |
+| 运输飞船 | Illuminate Overship | 重型飞行单位 | 已补战术 |
+| 跃迁飞船 | Warp Ship | 飞行器/投送单位 | 已补战术 |
 
 #### Appropriators
 
 | 中文名（已校对） | 英文名 | 备注 | 状态 |
 | --- | --- | --- | --- |
-| 守门人 | Gatekeeper | 中文资料未统一 | 待补 |
-| 入侵者 | Obtruder | 中文资料未统一 | 待补 |
-| 裁验者 | Veracitor | 中文资料未统一 | 待补 |
+| 守门人 | Gatekeeper | 中文资料未统一 | 已补战术 |
+| 入侵者 | Obtruder | 中文资料未统一 | 已补战术 |
+| 裁验者 | Veracitor | 中文资料未统一 | 已补战术 |
 
 ### 已确认弱点
 
@@ -878,6 +896,7 @@ graph TD
 | --- | --- | --- | --- | --- |
 | 刺魟 | Stingray | 近距空中支援机，俯冲后沿蓝色轨迹扫射 | 攻击减速阶段更容易命中本体 | 平飞时极难击落，最佳输出窗口是其准备扫射时。中穿和高爆支援武器对它非常有效。 |
 | 利维坦 | Leviathan | 大型浮空战舰，主炮和炸弹舱火力极重 | 主炮塔、鳍片/尾部破坏后暴露内部 | 先拆主炮降低威胁，再用反坦克持续输出。烟雾可阻断其视线，但已锁定的激光不会立刻失效。 |
+| 运输飞船 | Illuminate Overship | 超大型指挥舰，只在专门任务中出现 | 护盾击破后的发光港口；常规情况需行星防御炮（Planetary Defense Cannon）处理 | 这不是常规杂兵或普通据点目标，而是任务核心。先压掉护盾，再对准发光港口开火才是正解。 |
 | 跃迁飞船 | Warp Ship | 光能者增援投送飞船与营地核心投送平台 | 护盾破裂后的船体；空中型可类比运输机处理 | 先破盾再打船体；对空反甲和防空导弹阵地都有效。落地与投送型要分开看待。 |
 
 ### Appropriators 分支补全
@@ -907,7 +926,8 @@ graph TD
 
 ### 后续补完方向
 
-- 先补 `Automaton`，因为当前文档对 Bot 线轻中单位覆盖仍偏薄。
+- 继续扩充 `部位结构（Anatomy）` 细分数据，优先补 `吐酸泰坦`、`监视者`、`崇高监视者`、`刺魟`。
+- 继续核对 `Appropriators` 分支的中文译名，必要时保留英文并标注 `中文资料未统一`。
 - 再补 `Illuminate` 新增大型飞行/舰船单位，因为 2025-2026 内容迭代主要集中在这里。
 - 最后对 `Terminid` 做“按难度段”的出现概率与应对编组，而不只是静态弱点。
 
@@ -937,6 +957,13 @@ graph TD
 - [Helldivers Wiki - Overseer（fandom）](https://helldivers.fandom.com/wiki/Overseer)
 - [Helldivers Wiki - Harvester（fandom）](https://helldivers.fandom.com/wiki/Harvester)
 - [Helldivers Wiki - Fleshmob（fandom）](https://helldivers.fandom.com/wiki/Fleshmob)
+- [Helldivers Wiki - Stingray（wiki.gg）](https://helldivers.wiki.gg/wiki/Stingray)
+- [Helldivers Wiki - Leviathan（wiki.gg）](https://helldivers.wiki.gg/wiki/Leviathan)
+- [Helldivers Wiki - Illuminate Overship（wiki.gg）](https://helldivers.wiki.gg/wiki/Illuminate_Overship)
+- [Helldivers Wiki - Warp Ship（wiki.gg）](https://helldivers.wiki.gg/wiki/Warp_Ship)
+- [Helldivers Wiki - Gatekeeper（wiki.gg）](https://helldivers.wiki.gg/wiki/Gatekeeper)
+- [Helldivers Wiki - Obtruder（wiki.gg）](https://helldivers.wiki.gg/wiki/Obtruder)
+- [Helldivers Wiki - Veracitor（wiki.gg）](https://helldivers.wiki.gg/wiki/Veracitor)
 - [PlayStation Blog - Omens of Tyranny（2024-12-12）](https://blog.playstation.com/2024/12/12/new-helldivers-2-update-omens-of-tyranny-live-now-features-the-return-of-the-illuminate-faction/)
 - [PlayStation Blog - Illuminate set sights on Super Earth（2025-05-13）](https://blog.playstation.com/2025/05/13/helldivers-2-illuminate-set-sights-on-super-earth-new-enemy-types-deployed/)
 - [Helldivers Wiki - Damage Comparison（wiki.gg）](https://helldivers.wiki.gg/wiki/Damage_Comparison)
