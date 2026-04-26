@@ -3,7 +3,7 @@
 数据快照日期：2026-04-26  
 文档状态：`v0.1 初稿，可持续补全`
 
-<sub>整理与维护：ResnowH</sub>
+_整理与维护：ResnowH_
 
 > 时间说明：官方在 2026-02-10 的更新公告中已确认 `Cyborg` 作为 Automaton 战线下的新子派系回归。本文档当前仍按你的要求，以三大主阵营 `Terminids / Automatons / Illuminate` 为主轴整理，后续可在 Bot 章节下追加 `Cyborg` 分支。
 
